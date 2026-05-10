@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <style>
+    .spring { fill: #000000; font-family: 'Playfair Display', 'Times New Roman', serif; font-weight: 700; }
+    .vibe { fill: #ff69b4; font-family: 'Playfair Display', 'Times New Roman', serif; font-weight: 700; }
+  </style>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="20">
+    <tspan class="spring">S</tspan><tspan class="vibe">V</tspan>
+  </text>
+</svg>

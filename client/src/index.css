@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-light: #FCE7E6;
+  --color-primary-peach: #FFEDD5;
+  --color-primary-green: #DCFCE7;
+  --color-accent: #E11D48;
+  --color-accent-hover: #BE123C;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FFFBFB] text-[#333333] font-sans;
+  }
+}
+
+/* Custom Utilities */
+.masonry-grid {
+  display: flex;
+  margin-left: -16px; /* gutter size offset */
+  width: auto;
+}
+.masonry-grid_column {
+  padding-left: 16px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Scrollbar styling for Category Filter Bar */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
